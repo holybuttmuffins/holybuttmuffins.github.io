@@ -11,19 +11,96 @@
 <body>
     <navbar>
         <a class="navlink" href="#about">ABOUT</a>
-        <a class="navlink" href="#projects">PROJECTS</a>
+        <a class="navlink" href="#hobbies">HOBBIES</a>
         <a class="navlink" href="#contact">CONTACT</a>
     </navbar>
-    <div class="wrapper">
-        <h1 class="name">CHLOE</h1>
-        <div class="circle-animation" id="circle"></div>
-        <h1 class="name">WONG</h1>
-    </div>
-    <div class="wrapper" id="about">
-        <h1>ABOUT</h1>
-    <div class="wrapper" id="projects">
-    </div>
-    <div class="wrapper" id="contact">
+    <div class="container">
+        <div class="wrapper">
+            <h1 class="name">CHLOE</h1>
+            <div class="circle-animation" id="circle"></div>
+            <h1 class="name">WONG</h1>
+        </div>
+        <div class="wrapper" id="about">
+            <h1>ABOUT</h1>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <h1>ME</h1>
+                  </div>
+                  <div class="flip-card-back">
+                    <p>I am a fourth year </p>
+                    <p>Ba. Computer Science/Media Arts</p>
+                    <p>suffering in hell.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <h1>MYSELF</h1>
+                  </div>
+                  <div class="flip-card-back">
+                    <p>At 21 years of age</p>
+                    <p>I enjoy regular exercise</p>
+                    <p>and existential crises.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <h1>AND I</h1>
+                  </div>
+                  <div class="flip-card-back">
+                    <p>On a good day,</p>
+                    <p>I go outside.</p>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="wrapper" id="hobbies">
+            <div class="row">
+                <div class="box">
+                    <img src="keyboard.png" style="width: 275px; height: auto; padding: 10px 40px 0 40px"/>
+                </div> 
+                <div class="box" style="flex-direction: column; justify-content: center;">
+                    <h2>Thock.</h2>
+                    <p>I appreciate keyboards. This is one that I frankenstein'ed together.</p>
+                    <p>Build: RK84 Case, Boba U4T Switches, Epomaker 'Virtual War' Keycaps</p>
+                </div>
+            </div>
+            <div class="row" style="justify-content:center">
+                <div class="box" >
+                    <img src="hollow_knight.png" style="width: 275px; height: auto; padding: 0px 40px 0 40px"/>
+                </div> 
+                <div class="box" style="flex-direction: column; justify-content: center;">
+                    <h2>*struggling noises*</h2>
+                    <p>A fan of playing games, along with the rest of the 80% of the CSE cohort.</p>
+                    <p>Feel free to talk with me about Monster Hunter, Hollow Knight, Genshin Impact etc.</p>
+                </div>
+            </div>
+            <div class="row" style="justify-content:flex-end">
+                <div class="box" >
+                    <img src="drawing.png" style="width: 275px; height: auto; padding: 10px 40px 0 40px"/>
+                </div> 
+                <div class="box" style="flex-direction: column; justify-content: center; padding: 0px 40px 0 0">
+                    <h2>scribble scribble...</h2>
+                    <p>I occasionally like to draw. Is this because I watch anime? Perhaps... </p>
+                    <p>やれやれだぜ。</p>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper" id="contact">
+            <button onclick="window.open('https://www.linkedin.com/in/chloe-wong-2683021a3/', '_blank')">
+                <img src="linkedin_icon.jpg" alt="LinkedIn icon" width="50px"/>
+            </button>
+            <button onclick="window.open('https://steamcommunity.com/profiles/76561198169971374/', '_blank')">
+                <img src="steam_icon.png" alt="Steam icon" width="50px"/>
+            </button>
+            <button onclick="window.open('https://discordapp.com/users/396823749690785794', '_blank')">
+                <img src="discord_icon.png" alt="Steam icon" width="50px"/>
+            </button>
+        </div>
     </div>
 
 </body>
